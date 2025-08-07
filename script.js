@@ -50,7 +50,7 @@ featureCards.forEach(card => {
 function handleSubmit(event) {
     event.preventDefault();
     // Form handling logic would go here
-    alert('Thank you for your submission!');
+    alert('ご送信ありがとうございます！');
 }
 
 // Add animation to capability items
@@ -73,7 +73,7 @@ const downloadButtons = document.querySelectorAll('.download-btn');
 downloadButtons.forEach(button => {
     button.addEventListener('click', function() {
         const platform = this.textContent;
-        console.log(`User clicked download for ${platform}`);
+        console.log(`${platform}のダウンロードがクリックされました`);
         // In a real implementation, this could send analytics data
     });
 });
